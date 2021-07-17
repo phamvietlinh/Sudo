@@ -117,7 +117,7 @@ var inputString6 = '006010040'
 var inputString7 = '100008004'
 var inputString8 = '500000010'
 var inputString9 = '000900680'
-console.log(inputString1[1])
+// console.log(inputString1[1])
 
 var obj = {
 	11: +inputString1[0], 12: +inputString1[1], 13: +inputString1[2], 14: +inputString1[3], 15: +inputString1[4], 16: +inputString1[5], 17: +inputString1[6], 18: +inputString1[7], 19: +inputString1[8],
@@ -359,17 +359,22 @@ for (r = 0; r < arr12.length; r = r + 1) {
 }
 
 
-console.log([row[arrRe[0]],
-row2[arrRe[1]],
-row3[arrRe[2]],
-row4[arrRe[3]],
-row5[arrRe[4]],
-row6[arrRe[5]],
-row7[arrRe[6]],
-row8[arrRe[7]],
-row9[arrRe[8]]
+console.log(
+	[row[arrRe[0]].toString(),
+	row2[arrRe[1]].toString(),
+	row3[arrRe[2]].toString(),
+	row4[arrRe[3]].toString(),
+	row5[arrRe[4]].toString(),
+	row6[arrRe[5]].toString(),
+	row7[arrRe[6]].toString(),
+	row8[arrRe[7]].toString(),
+	row9[arrRe[8]].toString()
 
 ])
+
+// row[arrRe[0]].forEach(element => {
+// 	console.log(element)
+// })
 
 
 
